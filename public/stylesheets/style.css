@@ -1,0 +1,459 @@
+body {
+  font: 15px "Open Sans", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #FAFEEE;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-weight: 700;
+  line-height: .5rem;
+  color: #000000;
+}
+
+h3{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+h4{
+  font-weight: 600;
+  font-size: 1.23rem;
+}
+
+.navbar{
+  width: 100%;
+  height: 120px;
+  background-color: #568F36;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-wrapper{
+  width: 20%;
+  padding-left: 18px;
+}
+
+.logo{
+  width: 80%;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.link-wrapper{
+  width: 58%;
+}
+
+.navbar-items{
+  vertical-align: top;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 18px;
+}
+
+.navbar-link{
+  font: 1.2rem "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0px;
+}
+
+.navbar-link a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar-link:hover {
+  text-shadow: 0 0 1.5px #ffffff;
+}
+
+.hero-comparison{
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-comparison .cocoen{
+  height: calc(100vh - 120px);
+}
+
+.hero-comparison .cocoen img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero-comparison .cocoen>img{
+  z-index: -1;
+}
+
+.home-text{
+  width: 30%;
+  margin: auto;
+  text-align: left;
+}
+
+.cocoen-drag::before{
+  display: none;
+}
+
+.cocoen-drag{
+  width: 6px;
+}
+
+.small-button-box{
+  position: absolute;
+  right: 250px;
+  top: 1300px;
+  width: 220px;
+  border: .5px solid #b9b9b9;
+  box-shadow: 2px 2px 5px #b9b9b9;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.small-box-text{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+
+.small-button{
+  background-color: #568F36;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+button{
+  background-color: #568F36;
+  border: none;
+}
+
+.small-button-text{
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer{
+  text-align: center;
+}
+
+.fab{
+  padding-right: 15px;
+}
+
+.contact{
+  font-size: 1.2rem;
+}
+
+.footer-icons{
+  opacity: 60%;
+  color: #568F36;
+}
+
+.copyright{
+  font-size: 1.1rem;
+  color: #979797;
+}
+
+.footer-logo{
+  width: 11%;
+}
+
+.about-image{
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+}
+
+.about-body{
+  display: inline-block;
+  width: 35%;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.about-wrapper{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about-header{
+  margin: 0;
+}
+
+.reg-button-box{
+  width: 390px;
+  border: .5px solid #b9b9b9;
+  box-shadow: 2px 2px 5px #b9b9b9;
+  padding: 30px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.reg-box-text{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+
+.reg-button{
+  background-color: #568F36;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+
+button{
+  background-color: #568F36;
+  border: none;
+}
+
+.reg-button-text{
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-icons{
+  margin: auto;
+  text-align: center;
+  color: #568F36;
+}
+
+#fb{
+  padding: 0;
+}
+
+.services-wrapper{
+  width: 60%;
+  margin: auto;
+}
+
+.services-title-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-info{
+  border: .5px solid #b9b9b9;
+  box-shadow: 2px 2px 5px #b9b9b9;
+  padding: 40px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.services-img{
+  display: inline-block;
+  width: 20%;
+}
+
+.services-text{
+  display: inline-block;
+  width: 75%;
+  padding-right: 30px;
+}
+
+.services-titles{
+}
+
+#cabinetry-refinishing{
+  font-weight: 700;
+}
+
+.calculator-wrapper{
+  margin: auto;
+  width: 40%;
+}
+
+.calculator-line-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-half-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.calculator-price{
+  margin: 0;
+}
+
+.calculator-variable{
+  margin: 0;
+}
+
+.input-wrapper{
+  background-color: #dadada;
+  width: 25%;
+  border-radius: 8px;
+}
+
+.input-number{
+  text-align: center;
+  color: #8f8f8f;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: oblique;
+  margin: 0;
+}
+
+.input-dropdown{
+  text-align: right;
+  color: #8f8f8f;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.input-invisible{
+  opacity: 0;
+  margin: 2.5%;
+}
+
+.output-wrapper{
+  background-color: #dadada;
+  width: 25%;
+  border-radius: 8px;
+}
+
+.visualizer-image{
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.visualizer-wrapper{
+  width: 80%;
+  margin: auto;
+}
+
+.all-tab-wrapper{
+  width: 100%;
+}
+
+.tab-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-title{
+  border-radius: 10px;
+  border: .5px solid #b9b9b9;
+  padding: 30px 75px 40px 75px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #b9b9b9;
+}
+
+.palette-wrapper{
+  border: .5px solid #b9b9b9;
+  background-color: #ffffff;
+  width: 99.6%;
+  margin: auto;
+  padding: 50px 0px;
+  box-shadow: 2px 2px 5px #b9b9b9;
+  position: relative;
+  bottom: 35px;
+}
+
+.color-grid-wrapper{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.color-wrapper{
+  width: 250px;
+  padding: 35px 10px;
+}
+
+.color-name{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.color-swatch-1{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-2{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-3{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-4{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-5{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-6{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-7{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-8{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-9{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.color-swatch-10{
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(red, yellow);
+}
